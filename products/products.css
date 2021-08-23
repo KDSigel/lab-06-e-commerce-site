@@ -2,7 +2,7 @@ ul {
     border: solid hotpink 2px;
     background-color: rgba(255, 105, 180, 0.81);
     border-radius: 17px;
-    height: 300px;
+    height: 330px;
     width: 170px;
     list-style-type: none;
     display: grid;
@@ -14,7 +14,17 @@ ul {
     font-size: .7rem;
     color: white;
     margin: 0;
-    padding: 3px;
+    padding: 0;
+}
+
+.product-list {
+    display: flex;
+    padding: 33px;
+}
+
+.single-product {
+    margin: 22px;
+    padding: 20px;
 }
 
 .a-id-class, .category-class {
@@ -23,23 +33,21 @@ ul {
 
 .a-id-class {
     justify-self: start;
-    margin-left: 10px;
 }
 .category-class {
     justify-self: end;
-    margin-right: 10px;
+}
+
+img {
+    width: 133px;
+    border-radius: 6px;
+    grid-column: span 2;
 }
 
 .name-class {
     font-weight: 700;
     grid-column: span 2;
     font-size: 1.02rem;
-}
-
-li img {
-    height: 120px;
-    border-radius: 6px;
-    grid-column: span 2;
 }
 
 .description-class {
