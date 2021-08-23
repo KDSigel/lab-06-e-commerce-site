@@ -33,6 +33,7 @@ ul {
 .name-class {
     font-weight: 700;
     grid-column: span 2;
+    font-size: 1.02rem;
 }
 
 li img {
