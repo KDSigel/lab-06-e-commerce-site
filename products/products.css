@@ -1,0 +1,56 @@
+ul {
+    border: solid hotpink 2px;
+    background-color: rgba(255, 105, 180, 0.81);
+    border-radius: 17px;
+    height: 300px;
+    width: 170px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Inter', sans-serif;
+    font-size: .7rem;
+    color: white;
+    margin: 0;
+    padding: 3px;
+}
+
+.a-id-class, .category-class {
+    font-size: .5rem;
+    }
+
+.a-id-class {
+    justify-self: start;
+    margin-left: 10px;
+}
+.category-class {
+    justify-self: end;
+    margin-right: 10px;
+}
+
+.name-class {
+    font-weight: 700;
+    grid-column: span 2;
+}
+
+li img {
+    height: 120px;
+    border-radius: 6px;
+    grid-column: span 2;
+}
+
+.description-class {
+    font-weight: 300;
+    grid-column: span 2;
+}
+
+.price-class {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+li button {
+    justify-content: center;
+}
