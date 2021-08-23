@@ -1,6 +1,5 @@
 ul {
     border: solid hotpink 2px;
-    background-color: rgba(255, 105, 180, 0.81);
     border-radius: 17px;
     height: 330px;
     width: 170px;
@@ -12,7 +11,7 @@ ul {
     justify-content: space-evenly;
     font-family: 'Inter', sans-serif;
     font-size: .7rem;
-    color: white;
+    color: rgb(255, 0, 204);
     margin: 0;
     padding: 0;
 }
