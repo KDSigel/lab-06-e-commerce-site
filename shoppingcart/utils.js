@@ -1,7 +1,7 @@
-export function findById(myArray, id) {
-    for (let item of myArray) {
-        if (item.id === id) {
-            return item;
+export function findById(gamesArray, id) {
+    for (let game of gamesArray) {
+        if (game.id === id) {
+            return game;
         }
     }
 }
