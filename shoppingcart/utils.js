@@ -6,7 +6,6 @@ export function findById(myArray, id) {
     }
 }
 
-// This function takes an array and an id, 
-// and returns the first item found that 
-// has an .id property that matches the 
-// passed in id. It can return null if no match is found.
+export function calcItemTotal(quantity, price) {
+    return quantity * price;
+}
