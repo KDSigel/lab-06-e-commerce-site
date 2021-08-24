@@ -8,6 +8,10 @@ export function domGenerator(boardgame) {
     const price = document.createElement('div');
     const button = document.createElement('button');
 
+    // button.addEventListener;('click', () => {
+    //     alert(boardgame.name);
+    // });
+
     li.classList.add('boardgame');
     category.classList.add('category');
     img.classList.add('game-image');
