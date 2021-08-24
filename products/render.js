@@ -20,7 +20,7 @@ export function domGenerator(boardgame) {
     img.src = boardgame.image;
     name.textContent = boardgame.name;
     description.textContent = boardgame.description;
-    price.textContent = `$ ${boardgame.price}`;
+    price.textContent = `$${boardgame.price}`;
     button.textContent = `Add`;
 
     li.append(

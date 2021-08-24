@@ -1,18 +1,40 @@
-ul {
+.boardgame {
     border: solid hotpink 2px;
     border-radius: 17px;
-    height: 330px;
-    width: 170px;
+    height: 400px;
+    width: 180px;
     list-style-type: none;
-    justify-content: space-evenly;
     font-family: 'Inter', sans-serif;
     font-size: .7rem;
     color: rgb(255, 0, 204);
-    margin: 0;
-    padding: 0;
+    background-color: rgba(255, 105, 180, 0.05);
+    margin: 10px;
+    padding: 10px;
 }
 
 img {
     width: 133px;
     border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#board-games {
+    display: flex;
+    flex-direction: row;
+}
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.price {
+    font-size: 1.5rem;
+    font-weight: 600;
 }
