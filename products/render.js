@@ -14,20 +14,22 @@ export function domGenerator(boardgame) {
     name.classList.add('game-name');
     description.classList.add('description');
     price.classList.add('price');
-    // button.classList.add('button');
+    button.classList.add('button');
 
     category.textContent = boardgame.category;
     img.src = boardgame.image;
     name.textContent = boardgame.name;
     description.textContent = boardgame.description;
     price.textContent = `$ ${boardgame.price}`;
+    button.textContent = `Add`;
 
     li.append(
         category, 
         img, 
         name, 
         description, 
-        price
+        price,
+        button
     );
     return li;
 }
