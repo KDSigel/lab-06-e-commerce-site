@@ -4,10 +4,6 @@ ul {
     height: 330px;
     width: 170px;
     list-style-type: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    align-items: center;
     justify-content: space-evenly;
     font-family: 'Inter', sans-serif;
     font-size: .7rem;
@@ -16,49 +12,7 @@ ul {
     padding: 0;
 }
 
-.product-list {
-    display: flex;
-    padding: 33px;
-}
-
-.single-product {
-    margin: 22px;
-    padding: 20px;
-}
-
-.a-id-class, .category-class {
-    font-size: .5rem;
-    }
-
-.a-id-class {
-    justify-self: start;
-}
-.category-class {
-    justify-self: end;
-}
-
 img {
     width: 133px;
     border-radius: 6px;
-    grid-column: span 2;
-}
-
-.name-class {
-    font-weight: 700;
-    grid-column: span 2;
-    font-size: 1.02rem;
-}
-
-.description-class {
-    font-weight: 300;
-    grid-column: span 2;
-}
-
-.price-class {
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-
-li button {
-    justify-content: center;
 }
