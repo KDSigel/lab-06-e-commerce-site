@@ -9,16 +9,16 @@ export function renderLineItems(cartItem) {
     const quantity = document.createElement('td');
     const total = document.createElement('td');
 
-    tr.classList.add('boardgames');
-    name.classList.add('name');
-    price.classList.add('price');
+    // tr.classList.add('boardgames');
+    // name.classList.add('name');
+    // price.classList.add('price');
 
     const game = findById(gamesForSale, cartItem.id);
 
     name.textContent = game.name;
-    price.textContent = game.price;
+    price.textContent = `$${game.price}`;
     quantity.textContent = cartItem.quantity;
-    total.textContent = calcItemTotal(cartItem.quantity, game.price);
+    total.textContent = `$${calcItemTotal(cartItem.quantity, game.price)}`;
 
     tr.append(
         name,
