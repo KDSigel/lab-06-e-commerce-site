@@ -32,3 +32,9 @@ export function addToCart(addedItemsId) {
     }
     setCart(cart);
 }
+
+// Place order with alert, 
+// remove cart, 
+// and redirect
+
+// export function clear
