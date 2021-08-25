@@ -1,0 +1,15 @@
+table {
+    border: red solid 1px;
+}
+td {
+    border: goldenrod solid 1px;
+}
+tr {
+    border: blue solid 1px;
+}
+th {
+    border: green;
+}
+thead {
+    border: hotpink;
+}

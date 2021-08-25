@@ -1,7 +1,7 @@
 .boardgame {
     border: solid rgb(140, 140, 140) 3px;
     border-radius: 17px;
-    height: 450px;
+    min-height: 400px;
     width: 170px;
     list-style-type: none;
     font-family: 'Inter', sans-serif;
