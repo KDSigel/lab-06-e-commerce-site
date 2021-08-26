@@ -17,9 +17,7 @@ export function calcOrderTotal(whatever, cart) {
     for (let item of cart) {
 
         const X = findById(whatever, item.id);
-
         const total = X.price * item.quantity;
-
         accumulator = accumulator + total;
     }
     return accumulator.toLocaleString('en-US', { style: 'currency', currency: 'USD' });

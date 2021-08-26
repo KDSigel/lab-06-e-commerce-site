@@ -34,7 +34,7 @@ h2 {
     text-align: center;
     margin: 0;
     padding: 0;
-    color: purple;
+    color: crimson;
     margin-bottom: 0;
 }
 
@@ -55,5 +55,26 @@ h2 {
 }
 .button:hover {
     cursor: pointer;
-    background-color: purple;
+    background-color: crimson;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a:link, a:visited {
+    background-color: crimson;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 7px;
+  }
+
+  a:link:hover {
+    background-color: rgba(220, 20, 60, 0.509);
 }

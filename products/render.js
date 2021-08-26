@@ -1,3 +1,5 @@
+import { addToCart } from '../data/cart-api.js';
+
 export function domGenerator(boardgame) {
 
     const li = document.createElement('li');
@@ -8,9 +10,10 @@ export function domGenerator(boardgame) {
     const price = document.createElement('div');
     const button = document.createElement('button');
 
-    // button.addEventListener;('click', () => {
-    //     alert(boardgame.name);
-    // });
+    button.addEventListener('click', () => {
+        alert('game added to cart');
+        addToCart(boardgame.id);
+    });
 
     li.classList.add('boardgame');
     category.classList.add('category');

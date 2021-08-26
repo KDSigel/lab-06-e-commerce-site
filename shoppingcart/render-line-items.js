@@ -12,6 +12,8 @@ export function renderLineItems(cartItem) {
     // tr.classList.add('boardgames');
     // name.classList.add('name');
     // price.classList.add('price');
+    // quantity.classList.add('quantity');
+    // total.classList.add('total');
 
     const game = findById(gamesForSale, cartItem.id);
 
