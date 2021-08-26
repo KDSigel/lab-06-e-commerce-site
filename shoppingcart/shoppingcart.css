@@ -1,15 +1,71 @@
-table {
-    border: red solid 1px;
+.cart-calculations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
-td {
-    border: goldenrod solid 1px;
+
+table.redTable {
+    border: 2px solid crimson;
+    background-color: #EEE7DB;
+    width: 600px;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 60px;
+  }
+  table.redTable td, table.redTable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+  }
+  table.redTable tbody td {
+    font-size: 13px;
+  }
+  table.redTable tr:nth-child(even) {
+    background: #F5C8BF;
+  }
+  table.redTable thead {
+    background: #A40808;
+  }
+  table.redTable thead th {
+    font-size: 19px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #A40808;
+  }
+  table.redTable thead th:first-child {
+    border-left: none;
+  }
+  
+  table.redTable tfoot {
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #A40808;
+  }
+  table.redTable tfoot td {
+    font-size: 13px;
+  }
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-tr {
-    border: blue solid 1px;
-}
-th {
-    border: green;
-}
-thead {
-    border: hotpink;
-}
+
+a:link, a:visited {
+    background-color: crimson;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 7px;
+  }
+
+  a:link:hover {
+      background-color: rgba(220, 20, 60, 0.509);
+  }

@@ -32,9 +32,13 @@ export function addToCart(addedItemsId) {
     }
     setCart(cart);
 }
+ 
+export function alertcartitems() {
+    const cart = getCart();
+    const whatsInCart = JSON.stringify(cart);
+    alert(whatsInCart);
+}
 
-// Place order with alert, 
-// remove cart, 
-// and redirect
-
-// export function clear
+export function removeCartItems() {
+    localStorage.removeItem('CART');
+}

@@ -11,7 +11,7 @@ export function domGenerator(boardgame) {
     const button = document.createElement('button');
 
     button.addEventListener('click', () => {
-        alert('added game to cart');
+        alert('game added to cart');
         addToCart(boardgame.id);
     });
 
